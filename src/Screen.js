@@ -11,7 +11,7 @@ const Screen=()=>{
 
     return (
     <View>
-      
+        <Text>hey</Text>
     </View>)
 }
  export default Screen
