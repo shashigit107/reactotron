@@ -18,6 +18,7 @@ import {
 import Screen from './src/Screen';
 // import Reactotron from 'reactotron-react-native';
 import {reactotron} from './src/reactotron';
+import CustomButton from './src/Component/CustomButton';
 
 
 if(__DEV__) reactotron.connect()
@@ -36,6 +37,7 @@ function App() {
     <SafeAreaView >
      <Screen/>
       <Text>hey Dear</Text>
+      <CustomButton/>
     </SafeAreaView>
   );
 }
